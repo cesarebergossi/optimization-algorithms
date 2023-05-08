@@ -5,7 +5,7 @@ The vehicle has a combustion engine, a motor/generator connected to a battery, a
 
 $P_{req}(t)$ is positive when the wheels need power, e.g. vehicle is ascending a hill or accelerating: power for the wheels needs to be provided by the combustion engine and/or the motor/generator which extracts the power stored in the battery. When $P_{req}(t)$ is negative (e.g. because vehicle is descending a hill), the power is extracted by the motor/generator which can store it in the battery and/or by the friction break.
 
-Power is conserved, i.e., at each time t, we have
+Power is conserved, i.e., at each time $t$, we have
 $$P_{req}(t) = P_{eng}(t) + P_{mg}(t) - P_{br}(t)$$
 where $0 \leq P_{eng}(t) \leq Peng \textunderscore max$ is power produced by the combustion engine, $Pmg \textunderscore min \leq P_{mg}(t) \leq Pmg \textunderscore max$ is power produced by the motor/generator (can be also negative if motor/generator absorbs power to charge the battery) and $P_{br}(t) \geq 0$ is the power absorbed by the friction break. See data below for the definition of the constants.
 
